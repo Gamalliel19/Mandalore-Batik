@@ -17,6 +17,42 @@ const HomeContent = () => {
                 </div>
             </section>
 
+            <section className="belajar-batik">
+                <h2>
+                    Pelajari Batik Indonesia
+                </h2>
+                <p>
+                    Penjelasan mengenai batik, filosofi, dan proses pembuatan batik.
+                </p>
+                <div className="cards">
+                    <a href="/" className="card">
+                        <img src="assets/apaitubatik.png" alt="" className="card-img" />
+                        <p>Apa itu Batik?</p>
+                    </a>
+                    <a href="/" className="card">
+                        <img src="assets/filosofibatik.png" alt="" className="card-img" />
+                        <p>Filosofi Batik</p>
+                    </a>
+                    <a href="/" className="card">
+                        <img src="assets/carabuatbatik.png" alt="" className="card-img" />
+                        <p>Proses Pembuatan Batik</p>
+                    </a>
+                </div>
+            </section>
+
+            <section className="card-section">
+                <a href="/" className="card-long">
+                    {/* <img src="assets/lestarikan.png" alt="" className="card-section-img" /> */}
+                    <h1>Lestarikan Batik Indonesia</h1>
+                    <p>
+                        Mari lingungi warisan budaya Indonesia dengan melestarikan batik
+                    </p>
+                    <div className="button-white">
+                        Pelajari lebih lanjut
+                    </div>
+                </a>
+            </section>
+
         </div>
      );
 }

@@ -4,11 +4,14 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'quicksand', sans-serif;
 }
 .container{
   max-width: 1288px;
   margin: 0 auto;
+}
+section{
+  margin: 80px 0;
 }
 
 /* NAVIGATION MENU */
@@ -38,14 +41,16 @@ header nav ul li a{
   text-decoration: none;
   font-size: 18px;
 }
+header nav ul li a:hover{
+  opacity: 0.8;
+}
 header .phonenumber a{
   color: #222223;
   text-decoration: none;
   font-size: 18px;
 }
-
-section{
-  margin: 80px 0;
+header .phonenumber a:hover{
+  opacity: 0.8;
 }
 
 /* HEADING JUMBOTRON */
@@ -55,7 +60,8 @@ section{
   justify-content: space-between;
 }
 .hero .left-hero h1{
-  font-size: 52px;
+  font-size: 5vh;
+  letter-spacing: 0.5%;
 }
 .hero .left-hero p{
   font-size: 18px;
@@ -73,4 +79,39 @@ section{
 }
 .hero .left-hero .button-black:hover{
   opacity: 0.8;
+}
+
+/* PELAJARI BATIK INDONESIA */
+.belajar-batik h2{
+  letter-spacing: 0.5%;
+  font-size: 32px;
+}
+.belajar-batik p{
+  letter-spacing: 0.5%;
+  font-size: 18px;
+  margin: 10px 0 25px;
+}
+.belajar-batik .cards{
+  display: flex;
+  justify-content: space-between;
+}
+.belajar-batik .cards a{
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  color: #222223;
+}
+
+/* CARD SECTION */
+.card-section{
+  height: 500px;
+}
+.card-section .card-long{
+  background-image: url("./images/lestarikan.png");
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #ffffff;
+  padding: 50px;
 }
