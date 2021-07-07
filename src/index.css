@@ -26,9 +26,11 @@ header{
   align-items: center;
   justify-content: space-between;
 }
-header .logo span{
+header .logo a{
   font-family: 'Bebas Neue', cursive;
   font-size: 24px;
+  text-decoration: none;
+  color: #222223;
 }
 header nav ul{
   width: 350px;
@@ -186,7 +188,6 @@ footer{
 .footer-container{
   max-width: 1288px;
   margin: 0 auto;
-  height: 80px;
   display: flex;
   flex-direction: column;
 }
@@ -217,4 +218,66 @@ footer{
   display: flex;
   justify-content: space-between;
   padding: 0 0 50px 0;
+}
+.footer-container .bottom .right a{
+  font-weight: 700;
+  margin: 0 15px 0 0;
+}
+
+@media screen and (max-width: 1080px) {
+  /* CONTAINER */
+  .header-container, .footer-container, .container{
+    padding: 0 16px;
+  }
+  /* HEADER */
+  header nav ul, .phonenumber{
+    display: none;
+  }
+  .hero{
+    flex-direction: column-reverse;
+  }
+  .hero .jumbotron-image{
+    width: 100%;
+  }
+  /* BODY */
+  img{
+    width: 100%;
+  }
+  .belajar-batik .cards{
+    flex-direction: column;
+  }
+  .produk-batik .cards{
+    flex-direction: column;
+  }
+  .card-section .card-long-dua{
+    padding: 0 20px;
+  }
+  .card-section .card-long-dua h1{
+    font-size: 48px;
+    width: 100%;
+  }
+  .card-section .card-long-dua p{
+    font-size: 18px;
+    width: 100%;
+    margin: 12px 0 30px;
+  }
+  .button-white{
+    width: 100%;
+    text-align: center;
+  }
+  .card-section .card-long{
+    padding: 0 20px;
+  }
+  .card-section .card-long h1{
+    width: 100%;
+  }
+  .card-section .card-long p{
+    width: 100%;
+  }
+
+  
+  /* FOOTER */
+  .footer-container .top{
+    flex-direction: column;
+  }
 }

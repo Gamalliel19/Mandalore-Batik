@@ -3,7 +3,7 @@ const Header = () => {
         <header>
             <div className="header-container">
                 <div className="logo">
-                    <span>Mandalore</span>
+                    <a href="/">Mandalore</a>
                 </div>
                 <nav>
                     <ul>
