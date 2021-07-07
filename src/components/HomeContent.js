@@ -53,6 +53,42 @@ const HomeContent = () => {
                 </a>
             </section>
 
+            <section className="produk-batik">
+                <h2>
+                    Produk Batik Indonesia
+                </h2>
+                <p>
+                    Lihat dan temukan jenis-jenis produk Batik khas Indonesia ter-favorit.
+                </p>
+                <div className="cards">
+                    <a href="/" className="card">
+                        <img src="assets/pakaian.png" alt="" className="card-img" />
+                        <p>Pakaian Batik</p>
+                    </a>
+                    <a href="/" className="card">
+                        <img src="assets/aksesoris.png" alt="" className="card-img" />
+                        <p>Aksesoris Batik</p>
+                    </a>
+                    <a href="/" className="card">
+                        <img src="assets/homedecor.png" alt="" className="card-img" />
+                        <p>Dekorasi Rumah</p>
+                    </a>
+                </div>
+            </section>
+
+            <section className="card-section">
+                <a href="/" className="card-long-dua">
+                    {/* <img src="assets/lestarikan.png" alt="" className="card-section-img" /> */}
+                    <h1>Telusuri Model Batik Daerah Indonesia</h1>
+                    <p>
+                        Temukan evolusi motif batik selama berabad-abad dan pilih favoritmu.
+                    </p>
+                    <div className="button-white">
+                        Pelajari lebih lanjut
+                    </div>
+                </a>
+            </section>
+
         </div>
      );
 }
