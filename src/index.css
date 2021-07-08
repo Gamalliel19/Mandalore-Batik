@@ -224,6 +224,28 @@ footer{
   margin: 0 15px 0 0;
 }
 
+/* MOBILE MENU */
+.mobile-menu{
+  background-color: #222223;
+  display: none;
+  padding: 15px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.mobile-menu nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.mobile-menu nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+
 @media screen and (max-width: 1080px) {
   /* CONTAINER */
   .header-container, .footer-container, .container{
@@ -232,6 +254,9 @@ footer{
   /* HEADER */
   header nav ul, .phonenumber{
     display: none;
+  }
+  header .header-container {
+    justify-content: center;
   }
   .hero{
     flex-direction: column-reverse;
@@ -279,5 +304,10 @@ footer{
   /* FOOTER */
   .footer-container .top{
     flex-direction: column;
+  }
+
+  /* MOBILE MENU */
+  .mobile-menu{
+    display: block;
   }
 }
