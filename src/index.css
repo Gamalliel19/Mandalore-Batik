@@ -32,6 +32,12 @@ header .logo a{
   text-decoration: none;
   color: #222223;
 }
+header .logo{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 24px;
+  text-decoration: none;
+  color: #222223;
+}
 header nav ul{
   width: 350px;
   display: flex;
@@ -213,6 +219,7 @@ footer{
 }
 .footer-container a:hover{
   opacity: 0.8;
+  text-decoration: underline;
 }
 .footer-container .bottom{
   display: flex;

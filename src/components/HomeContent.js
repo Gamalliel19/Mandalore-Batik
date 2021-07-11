@@ -26,7 +26,7 @@ const HomeContent = () => {
                     Penjelasan mengenai batik, filosofi, dan proses pembuatan batik.
                 </p>
                 <div className="cards">
-                    <Link to="/" className="card">
+                    <Link to="/about" className="card">
                         <img src="assets/apaitubatik.png" alt="" className="card-img" />
                         <p>Apa itu Batik?</p>
                     </Link>

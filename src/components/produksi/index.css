@@ -1,0 +1,34 @@
+.produksi h1{
+    font-size: 5vh;
+    margin: 100px 0;
+    text-align: center;
+}
+.row{
+    display: flex;
+    max-width: 1060px;
+    margin: 50px auto;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.reverse{ 
+    flex-direction: row-reverse;
+}
+.produksi h3{
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.produksi p{
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.5%;
+}
+.produksi img{
+    height: 100%;
+}
+
+@media screen and (max-width: 1080px) {
+    .row{
+        flex-direction: column-reverse;
+    }
+}
