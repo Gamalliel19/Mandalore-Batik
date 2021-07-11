@@ -1,16 +1,18 @@
+import { Link } from 'react-router-dom'
+
 const MobileMenu = () => {
     return ( 
         <div className="mobile-menu">
             <nav>
                 <ul>
                     <li>
-                        <a href="/">Produksi</a>
+                        <Link to="/produksi">Produksi</Link>
                     </li>
                     <li>
-                        <a href="/">Batik Daerah</a>
+                        <Link to="/batik-daerah">Batik Daerah</Link>
                     </li>
                     <li>
-                        <a href="/">Pengalaman</a>
+                        <Link to="/pengalaman">Pengalaman</Link>
                     </li>
                 </ul>
             </nav>
