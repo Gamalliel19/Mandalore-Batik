@@ -1,6 +1,4 @@
 import './index.css'
-// import {Link} from 'react-router-dom'
-import ChildHeader from '../ChildHeader'
 
 const Produksi = () => {
     return ( 

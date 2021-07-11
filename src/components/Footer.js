@@ -1,39 +1,41 @@
+import { Link } from 'react-router-dom'
+
 const Footer = () => {
     return ( 
         <footer>
             <div className="footer-container">
                 <div className="top">
                     <div className="satu">
-                        <p>tentang</p>
-                        <a href="/">Cara Kerja Mandalore</a>
-                        <a href="/">Blog</a>
-                        <a href="/">Visi dan Misi</a>
-                        <a href="/">Produk Batik</a>
-                        <a href="/">Produksi Batik</a>
+                        <p>TENTANG</p>
+                        <Link to="/">Cara Kerja Mandalore</Link>
+                        <Link to="/">Blog</Link>
+                        <Link to="/">Visi dan Misi</Link>
+                        <Link to="/">Produk Batik</Link>
+                        <Link to="/">Produksi Batik</Link>
                     </div>
                     <div className="dua">
-                        <p>komunitas</p>
-                        <a href="/">Batik Story</a>
-                        <a href="/">Batik Fashion Indonesia</a>
-                        <a href="/">Batik Boutique</a>
-                        <a href="/">Batik.org</a>
-                        <a href="/">Pakai Batik Tiap Hari</a>
-                        <a href="/">Lokal Pride Indonesia</a>
+                        <p>KOMUNITAS</p>
+                        <Link to="/">Batik Story</Link>
+                        <Link to="/">Batik Fashion Indonesia</Link>
+                        <Link to="/">Batik Boutique</Link>
+                        <Link to="/">Batik.org</Link>
+                        <Link to="/">Pakai Batik Tiap Hari</Link>
+                        <Link to="/">Lokal Pride Indonesia</Link>
                     </div>
                     <div className="tiga">
-                        <p>pengalaman</p>
-                        <a href="/">#PAKAIBATIK</a>
-                        <a href="/">#BANGGAPAKAIBATIK</a>
-                        <a href="/">#LOKALPRIDE</a>
-                        <a href="/">#LOCALPRIDEINDONESIA</a>
+                        <p>PENGALAMAN</p>
+                        <Link to="/">#PAKAIBATIK</Link>
+                        <Link to="/">#BANGGAPAKAIBATIK</Link>
+                        <Link to="/">#LOKALPRIDE</Link>
+                        <Link to="/">#LOCALPRIDEINDONESIA</Link>
                     </div>
                     <div className="empat">
-                        <p>dukungan</p>
-                        <a href="/">Pusat Bantuan</a>
-                        <a href="/">Aturan Pakai Batik</a>
-                        <a href="/">Privasi</a>
-                        <a href="/">Ketentuan</a>
-                        <a href="/">Cookies</a>
+                        <p>DUKUNGAN</p>
+                        <Link to="/">Pusat Bantuan</Link>
+                        <Link to="/">Aturan Pakai Batik</Link>
+                        <Link to="/">Privasi</Link>
+                        <Link to="/">Ketentuan</Link>
+                        <Link to="/">Cookies</Link>
                     </div>
                 </div>
                 <div className="bottom">
@@ -41,9 +43,9 @@ const Footer = () => {
                         <span>© 2021 Mandalore, Inc.</span>
                     </div>
                     <div className="right">
-                        <a href="/">FB</a>
-                        <a href="/">IG</a>
-                        <a href="/">TW</a>
+                        <Link to="/">FB</Link>
+                        <Link to="/">IG</Link>
+                        <Link to="/">TW</Link>
                     </div>
                 </div>
             </div>
