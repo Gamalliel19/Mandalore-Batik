@@ -26,15 +26,15 @@ const HomeContent = () => {
                     Penjelasan mengenai batik, filosofi, dan proses pembuatan batik.
                 </p>
                 <div className="cards">
-                    <Link to="/about" className="card">
+                    <Link to="/tentang" className="card">
                         <img src="assets/apaitubatik.png" alt="" className="card-img" />
                         <p>Apa itu Batik?</p>
                     </Link>
-                    <Link to="/" className="card">
+                    <Link to="/filosofi-batik" className="card">
                         <img src="assets/filosofibatik.png" alt="" className="card-img" />
                         <p>Filosofi Batik</p>
                     </Link>
-                    <Link to="/" className="card">
+                    <Link to="/produksi" className="card">
                         <img src="assets/carabuatbatik.png" alt="" className="card-img" />
                         <p>Proses Pembuatan Batik</p>
                     </Link>
@@ -56,23 +56,23 @@ const HomeContent = () => {
 
             <section className="produk-batik">
                 <h2>
-                    Produk Batik Indonesia
+                    Pelajari Juga
                 </h2>
                 <p>
-                    Lihat dan temukan jenis-jenis produk Batik khas Indonesia ter-favorit.
+                    Pelajari lebih lanjut mengenai batik mulai dari sejarah hingga terdaftar di UNESCO
                 </p>
                 <div className="cards">
-                    <Link to="/" className="card">
-                        <img src="assets/pakaian.png" alt="" className="card-img" />
-                        <p>Pakaian Batik</p>
+                    <Link to="/sejarah" className="card">
+                        <img src="assets/8Bg8N8HtiWI-1.png" alt="" className="card-img" />
+                        <p>Sejarah Batik</p>
                     </Link>
-                    <Link to="/" className="card">
-                        <img src="assets/aksesoris.png" alt="" className="card-img" />
-                        <p>Aksesoris Batik</p>
+                    <Link to="/aturan" className="card">
+                        <img src="assets/8Bg8N8HtiWI-2.png" alt="" className="card-img" />
+                        <p>Aturan Pakai Batik</p>
                     </Link>
-                    <Link to="/" className="card">
-                        <img src="assets/homedecor.png" alt="" className="card-img" />
-                        <p>Dekorasi Rumah</p>
+                    <Link to="/unesco" className="card">
+                        <img src="assets/8Bg8N8HtiWI.png" alt="" className="card-img" />
+                        <p>UNESCO | Batik Indonesia</p>
                     </Link>
                 </div>
             </section>
