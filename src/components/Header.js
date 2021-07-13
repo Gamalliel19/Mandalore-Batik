@@ -10,7 +10,7 @@ const Header = () => {
                 <nav>
                     <ul>
                         <li>
-                            <Link to="/produksi">Produksi</Link>
+                            <Link to="/produk">Produk</Link>
                         </li>
                         <li>
                             <Link to="/batik-daerah">Batik Daerah</Link>
