@@ -1,4 +1,3 @@
-import { map } from 'async';
 import { useState } from 'react'
 import './tentang.css'
 
@@ -42,45 +41,6 @@ const Tentang = () => {
                         </div>
                     ))}
 
-                    {/* <div className="row">
-                        <div className="col">
-                            <h3>1. Batik Tulis</h3>
-                            <p>batik tulis adalah jenis batik yang dibuat secara manual menggunakan tangan dengan bantuan alat canting untuk menerakan malam ke corak batik.</p>
-                        </div>
-                        <div className="col">
-                            <img src="assets/tentang/Rectangle 207.png" alt="" />
-                        </div>
-                    </div>
-
-                    <div className="row reverse">
-                        <div className="col">
-                            <h3>1. Batik Tulis</h3>
-                            <p>batik tulis adalah jenis batik yang dibuat secara manual menggunakan tangan dengan bantuan alat canting untuk menerakan malam ke corak batik.</p>
-                        </div>
-                        <div className="col">
-                            <img src="assets/tentang/Rectangle 208.png" alt="" />
-                        </div>
-                    </div>
-
-                    <div className="row">
-                        <div className="col">
-                            <h3>1. Batik Tulis</h3>
-                            <p>batik tulis adalah jenis batik yang dibuat secara manual menggunakan tangan dengan bantuan alat canting untuk menerakan malam ke corak batik.</p>
-                        </div>
-                        <div className="col">
-                            <img src=" assets/tentang/Rectangle 208-1.png" alt="" />
-                        </div>
-                    </div>
-
-                    <div className="row reverse">
-                        <div className="col">
-                            <h3>1. Batik Tulis</h3>
-                            <p>batik tulis adalah jenis batik yang dibuat secara manual menggunakan tangan dengan bantuan alat canting untuk menerakan malam ke corak batik.</p>
-                        </div>
-                        <div className="col">
-                            <img src="assets/tentang/Rectangle 208-2.png" alt="" />
-                        </div>
-                    </div> */}
                 </section>
 
             </article>

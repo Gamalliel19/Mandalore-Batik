@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import AboutBatik from './pages/AboutBatik'
 import ProduksiBatik from "./pages/ProduksiBatik";
 import Construction from "./components/construction/Construction";
+import FilosofiBatik from "./pages/FilosofiBatik";
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
             <ProduksiBatik />
           </Route>
           <Route path="/filosofi-batik">
-            <Construction />
+            <FilosofiBatik />
           </Route>
           <Route path="/sejarah">
             <Construction />

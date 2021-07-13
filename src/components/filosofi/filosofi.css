@@ -1,0 +1,33 @@
+.filosofi p{
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.5%;
+}
+.filosofi h3{
+    font-size: 32px;
+    letter-spacing: 0.5%;
+    text-align: center;
+}
+hr{
+    width: 50px;
+    border: none;
+    height: 2px;
+    color: #222223; 
+    background-color: #222223; 
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.filosofi-batik h1{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 6vh;
+}
+.filosofi-batik img{
+    display: block;
+    margin: 50px auto;
+}
+.batik-modern, .nilai-filosofis{
+    max-width: 860px;
+    margin: 0 auto;
+}
