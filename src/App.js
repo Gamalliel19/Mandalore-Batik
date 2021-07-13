@@ -4,6 +4,7 @@ import AboutBatik from './pages/AboutBatik'
 import ProduksiBatik from "./pages/ProduksiBatik";
 import Construction from "./components/construction/Construction";
 import FilosofiBatik from "./pages/FilosofiBatik";
+import Pengalaman from './pages/PengalamanBatik'
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
             <Construction />
           </Route>
           <Route path="/pengalaman">
-            <Construction />
+            <Pengalaman />
           </Route>
           <Route path="/tentang">
             <AboutBatik />
