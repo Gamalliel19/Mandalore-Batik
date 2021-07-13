@@ -13,6 +13,8 @@ const Produksi = () => {
         {title: "07. Njemur", body: "Njemur mengacu pada proses pengeringan kain. Proses pengeringan bisa memakan waktu 1-2 hari tergantung cuaca. Setelah kering, tekstil harus dilipat dengan rapi dan disimpan di tempat yang kering dan terhindar dari sinar matahari langsung.", image: "assets/produksi/8Bg8N8HtiWI-6.png", id: 7}
     ])
     
+    const contents = console.log(setContent())
+    console.log(contents)
 
     return ( 
 

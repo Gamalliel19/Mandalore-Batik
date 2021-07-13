@@ -9,7 +9,8 @@ const Tentang = () => {
         {title: "3. Batik Kombinasi Cap & Tulis", description: "Ada juga jenis batik yang merupakan kombinasi batik tulis dan batik cap. Jenis batik ini dibuat dalam rangka mengurangi kelemahan-kelemahan pada produk batik cap.", image: "assets/tentang/Rectangle 208-1.png", id: 3},
         {title: "4. Batik Printing", description: "Batik printing atau yang disebut juga dengan batik sablon karena dalam proses pembuatan jenis batik ini lebih mirip dengan penyablonan. Dalam pembuatan batik printing menggunakan alat offset atau sablon.", image: "assets/tentang/Rectangle 208-2.png", id: 4},
     ])
-
+    const contents = console.log(setJenisBatik())
+    console.log(contents)
     return ( 
         <div className="container tentang">
             <article>
