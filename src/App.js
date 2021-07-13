@@ -1,10 +1,10 @@
+
 import LandingPage from "./pages/LandingPage";
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import AboutBatik from './pages/AboutBatik'
 import ProduksiBatik from "./pages/ProduksiBatik";
 import Construction from "./components/construction/Construction";
 import FilosofiBatik from "./pages/FilosofiBatik";
-
 function App() {
   return (
     <Router>

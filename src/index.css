@@ -1,19 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans:wght@300;400;500;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: 'quicksand', sans-serif;
 }
-.container{
+.container {
   max-width: 1288px;
   margin: 0 auto;
 }
-section{
+section {
   margin: 80px 0;
 }
 
+<<<<<<< HEAD
+=======
 /* NAVIGATION MENU */
 header{
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
@@ -61,23 +63,24 @@ header .phonenumber a:hover{
   opacity: 0.8;
 }
 
+>>>>>>> 9673010638d0e2ef7043f7d211700044bc80a868
 /* HEADING JUMBOTRON */
-.hero{
+.hero {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.hero .left-hero h1{
+.hero .left-hero h1 {
   font-size: 5vh;
   letter-spacing: 0.5%;
 }
-.hero .left-hero p{
+.hero .left-hero p {
   font-size: 18px;
   letter-spacing: 0.5%;
   line-height: 26px;
   margin: 20px 0;
 }
-.hero .left-hero .button-black{
+.hero .left-hero .button-black {
   color: #ffffff;
   background: #222223;
   padding: 14px 24px;
@@ -85,25 +88,25 @@ header .phonenumber a:hover{
   display: inline-block;
   border-radius: 10px;
 }
-.hero .left-hero .button-black:hover{
+.hero .left-hero .button-black:hover {
   opacity: 0.8;
 }
 
 /* PELAJARI BATIK INDONESIA */
-.belajar-batik h2{
+.belajar-batik h2 {
   letter-spacing: 0.5%;
   font-size: 32px;
 }
-.belajar-batik p{
+.belajar-batik p {
   letter-spacing: 0.5%;
   font-size: 18px;
   margin: 10px 0 25px;
 }
-.belajar-batik .cards{
+.belajar-batik .cards {
   display: flex;
   justify-content: space-between;
 }
-.belajar-batik .cards a{
+.belajar-batik .cards a {
   text-decoration: none;
   font-size: 18px;
   font-weight: 700;
@@ -111,11 +114,11 @@ header .phonenumber a:hover{
 }
 
 /* CARD SECTION */
-.card-section{
+.card-section {
   height: 500px;
 }
-.card-section .card-long{
-  background-image: url("./images/lestarikan.png");
+.card-section .card-long {
+  background-image: url('./images/lestarikan.png');
   height: 100%;
   display: flex;
   justify-content: center;
@@ -124,16 +127,16 @@ header .phonenumber a:hover{
   padding: 0 40px;
   text-decoration: none;
 }
-.card-section .card-long h1{
+.card-section .card-long h1 {
   font-size: 48px;
   width: 50%;
 }
-.card-section .card-long p{
+.card-section .card-long p {
   font-size: 18px;
   width: 30%;
   margin: 12px 0 30px;
 }
-.button-white{
+.button-white {
   color: #222223;
   background: #ffffff;
   width: 16%;
@@ -144,20 +147,20 @@ header .phonenumber a:hover{
 }
 
 /* PRODUK BATIK INDONESIA */
-.produk-batik h2{
+.produk-batik h2 {
   letter-spacing: 0.5%;
   font-size: 32px;
 }
-.produk-batik p{
+.produk-batik p {
   letter-spacing: 0.5%;
   font-size: 18px;
   margin: 10px 0 25px;
 }
-.produk-batik .cards{
+.produk-batik .cards {
   display: flex;
   justify-content: space-between;
 }
-.produk-batik .cards a{
+.produk-batik .cards a {
   text-decoration: none;
   font-size: 18px;
   font-weight: 700;
@@ -165,8 +168,8 @@ header .phonenumber a:hover{
 }
 
 /* CARD SECTION LONG DUA */
-.card-section .card-long-dua{
-  background-image: url("./images/telusur.png");
+.card-section .card-long-dua {
+  background-image: url('./images/telusur.png');
   height: 100%;
   display: flex;
   justify-content: center;
@@ -175,64 +178,67 @@ header .phonenumber a:hover{
   padding: 0 40px;
   text-decoration: none;
 }
-.card-section .card-long-dua h1{
+.card-section .card-long-dua h1 {
   font-size: 48px;
   width: 50%;
 }
-.card-section .card-long-dua p{
+.card-section .card-long-dua p {
   font-size: 18px;
   width: 30%;
   margin: 12px 0 30px;
 }
 
 /* FOOTER */
-footer{
+footer {
   padding: 50px 0;
   background-color: #f5f5f5;
   height: 100%;
 }
-.footer-container{
+.footer-container {
   max-width: 1288px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
 }
-.footer-container .top{
+.footer-container .top {
   display: flex;
   justify-content: space-between;
   margin-bottom: 50px;
 }
-.footer-container .top .satu, .dua, .tiga, .empat{
+.footer-container .top .satu,
+.dua,
+.tiga,
+.empat {
   display: flex;
   flex-direction: column;
   line-height: 36px;
   letter-spacing: 0.5%;
   font-size: 16px;
 }
-.footer-container p{
+.footer-container p {
   font-weight: 700;
   text-transform: uppercase;
 }
-.footer-container a{
+.footer-container a {
   color: #000;
   text-decoration: none;
 }
-.footer-container a:hover{
+.footer-container a:hover {
   opacity: 0.8;
   text-decoration: underline;
 }
-.footer-container .bottom{
+.footer-container .bottom {
   display: flex;
   justify-content: space-between;
   padding: 0 0 50px 0;
 }
-.footer-container .bottom .right a{
+.footer-container .bottom .right a {
   font-weight: 700;
   margin: 0 15px 0 0;
 }
 
 /* MOBILE MENU */
-.mobile-menu{
+.mobile-menu {
   background-color: #222223;
   display: none;
   padding: 15px 0;
@@ -241,13 +247,13 @@ footer{
   left: 0;
   width: 100%;
 }
-.mobile-menu nav ul{
+.mobile-menu nav ul {
   display: flex;
   align-items: center;
   justify-content: space-around;
   list-style-type: none;
 }
-.mobile-menu nav ul li a{
+.mobile-menu nav ul li a {
   text-decoration: none;
   color: #fff;
   font-size: 14px;
@@ -255,66 +261,68 @@ footer{
 
 @media screen and (max-width: 1080px) {
   /* CONTAINER */
-  .header-container, .footer-container, .container{
+  .header-container,
+  .footer-container,
+  .container {
     padding: 0 16px;
   }
   /* HEADER */
-  header nav ul, .phonenumber{
+  header nav ul,
+  .phonenumber {
     display: none;
   }
   header .header-container {
     justify-content: center;
   }
-  .hero{
+  .hero {
     flex-direction: column-reverse;
   }
-  .hero .jumbotron-image{
+  .hero .jumbotron-image {
     width: 100%;
   }
   /* BODY */
-  img{
+  img {
     width: 100%;
   }
-  .belajar-batik .cards{
+  .belajar-batik .cards {
     flex-direction: column;
   }
-  .produk-batik .cards{
+  .produk-batik .cards {
     flex-direction: column;
   }
-  .card-section .card-long-dua{
+  .card-section .card-long-dua {
     padding: 0 20px;
   }
-  .card-section .card-long-dua h1{
+  .card-section .card-long-dua h1 {
     font-size: 48px;
     width: 100%;
   }
-  .card-section .card-long-dua p{
+  .card-section .card-long-dua p {
     font-size: 18px;
     width: 100%;
     margin: 12px 0 30px;
   }
-  .button-white{
+  .button-white {
     width: 100%;
     text-align: center;
   }
-  .card-section .card-long{
+  .card-section .card-long {
     padding: 0 20px;
   }
-  .card-section .card-long h1{
+  .card-section .card-long h1 {
     width: 100%;
   }
-  .card-section .card-long p{
+  .card-section .card-long p {
     width: 100%;
   }
 
-  
   /* FOOTER */
-  .footer-container .top{
+  .footer-container .top {
     flex-direction: column;
   }
 
   /* MOBILE MENU */
-  .mobile-menu{
+  .mobile-menu {
     display: block;
   }
 }

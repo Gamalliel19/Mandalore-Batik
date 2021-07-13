@@ -1,6 +1,7 @@
-import { Link } from 'react-router-dom'
+import '../components/css/header.css';
 
 const Header = () => {
+
     return ( 
         <header>
             <div className="header-container">
@@ -29,3 +30,4 @@ const Header = () => {
 }
  
 export default Header;
+
