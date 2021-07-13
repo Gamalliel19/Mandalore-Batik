@@ -30,7 +30,7 @@ const Tentang = () => {
                     </p>
 
                     {jenisBatik.map(content => (
-                        <div className={`row ${content.id % 2 === 0 ? 'reverse' : "" }`}>
+                        <div className={`row ${content.id % 2 === 0 ? 'reverse' : "" }`} key={content.id}>
                             <div className="col">
                                 <h3>{content.title}</h3>
                                 <p>{content.description}</p>
