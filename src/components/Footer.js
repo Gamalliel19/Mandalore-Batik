@@ -7,11 +7,12 @@ const Footer = () => {
                 <div className="top">
                     <div className="satu">
                         <p>TENTANG</p>
-                        <Link to="/">Cara Kerja Mandalore</Link>
-                        <Link to="/">Blog</Link>
-                        <Link to="/">Visi dan Misi</Link>
-                        <Link to="/">Produk Batik</Link>
-                        <Link to="/">Produksi Batik</Link>
+                        <Link to="/">Apa itu Batik?</Link>
+                        <Link to="/">Filosofi Batik</Link>
+                        <Link to="/">Proses Pembuatan Batik</Link>
+                        <Link to="/">Produk</Link>
+                        <Link to="/">Sejarah Batik</Link>
+                        <Link to="/">Aturan Pakai Batik</Link>
                     </div>
                     <div className="dua">
                         <p>KOMUNITAS</p>

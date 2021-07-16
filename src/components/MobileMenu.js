@@ -6,7 +6,7 @@ const MobileMenu = () => {
             <nav>
                 <ul>
                     <li>
-                        <Link to="/produk">Produksi</Link>
+                        <Link to="/produk">Produk</Link>
                     </li>
                     <li>
                         <Link to="/batik-daerah">Batik Daerah</Link>

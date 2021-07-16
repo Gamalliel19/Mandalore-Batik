@@ -1,0 +1,42 @@
+.batik-list h1{
+    text-align: center;
+    font-size: 5vh;
+    margin: 80px 0;
+    line-height: 64px;
+    letter-spacing: 0.5%;
+}
+.batik-daerah-title{
+    margin: 30px 0 15px;
+}
+.batik-list-image{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    flex-direction: row;
+}
+.batik-card{
+    color: #222223;
+    text-decoration: none;
+}
+.batik-card .card-img img{
+    width: 300px;
+    height: 300px;
+    height: auto;
+    object-fit: cover;
+}
+.blank-box{
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 680px){
+    .batik-list-image{
+        overflow: scroll;
+    }
+    ::-webkit-scrollbar { display: none; }
+    
+    .batik-card .card-img img{
+        width: 250px;
+        height: 200px;
+        object-fit: fill;
+    }
+}

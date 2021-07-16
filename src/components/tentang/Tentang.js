@@ -9,6 +9,12 @@ const Tentang = () => {
         {title: "3. Batik Kombinasi Cap & Tulis", description: "Ada juga jenis batik yang merupakan kombinasi batik tulis dan batik cap. Jenis batik ini dibuat dalam rangka mengurangi kelemahan-kelemahan pada produk batik cap.", image: "assets/tentang/Rectangle 208-1.png", id: 3},
         {title: "4. Batik Printing", description: "Batik printing atau yang disebut juga dengan batik sablon karena dalam proses pembuatan jenis batik ini lebih mirip dengan penyablonan. Dalam pembuatan batik printing menggunakan alat offset atau sablon.", image: "assets/tentang/Rectangle 208-2.png", id: 4},
     ])
+
+    const title = [
+        {id: 0, title: "Apa itu Batik?", description: "Secara umum, pengertian batik adalah kain yang dilukis dengan cairan lilin malam menggunakan alat bernama canting sehingga di atas kain tersebut terdapat lukisan bernilai seni tinggi. Batik berasal dari bahasa Jawa yaitu dari kata “mbat” (melempar) dan “titik”, yang berarti melempar titik berkali-kali pada kain. Sederhananya batik merupakan seni dalam menghias kain dengan penutup lilin untuk membentuk corak hiasan tertentu serta membentuk sebuah bidang pewarnaan."},
+        {id: 1, title: "Jenis Batik", description: "Batik dapat dibedakan menjadi beberapa jenis. Sesuai dengan penjelasan mengenai pengertian batik, adapun beberapa jenis batik adalah sebagai berikut:"}
+    ]
+
     const contents = console.log(setJenisBatik)
     console.log(contents)
     return ( 
@@ -17,17 +23,17 @@ const Tentang = () => {
 
                 <section className="tentang-batik">
                     <hr />
-                    <h1>Apa itu Batik?</h1>
+                    <h1>{title[0].title}</h1>
                     <img src="assets/tentang/Rectangle 104.png" alt="" />
                     <p>
-                    Secara umum, pengertian batik adalah kain yang dilukis dengan cairan lilin malam menggunakan alat bernama canting sehingga di atas kain tersebut terdapat lukisan bernilai seni tinggi. Batik berasal dari bahasa Jawa yaitu dari kata “mbat” (melempar) dan “titik”, yang berarti melempar titik berkali-kali pada kain. Sederhananya batik merupakan seni dalam menghias kain dengan penutup lilin untuk membentuk corak hiasan tertentu serta membentuk sebuah bidang pewarnaan.
+                        {title[0].description}
                     </p>
                 </section>
 
                 <section className="jenis-batik">
-                    <h2>Jenis Batik</h2>
+                    <h2>{title[1].title}</h2>
                     <p className="jenis-desc">
-                        Batik dapat dibedakan menjadi beberapa jenis. Sesuai dengan penjelasan mengenai pengertian batik, adapun beberapa jenis batik adalah sebagai berikut:
+                        {title[1].description}
                     </p>
 
                     {jenisBatik.map(content => (
